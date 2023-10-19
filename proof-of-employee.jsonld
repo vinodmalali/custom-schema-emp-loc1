@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "ProofOfEmployee": {
+        "@id": "https://raw.githubusercontent.com/vinodmalali/custom-schema-emp-loc1/main/proof-of-employee.jsonld#ProofOfEmployee",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/vinodmalali/custom-schema-emp-loc1/main/proof-of-employee-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "isEmployee&&isFemale&&location": {
+            "@id": "vocab:isEmployee&&isFemale&&location",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}
